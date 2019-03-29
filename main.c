@@ -21,7 +21,7 @@ int main()
     
     motor(2,-96); //robot moves back to starting zone
     motor(3,-100);
-    msleep(6600);
+    msleep(6000);
     
     motor(2,-96);   //robot turns left to face other side
     motor(3,100);
